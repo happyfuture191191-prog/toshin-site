@@ -205,9 +205,13 @@ a {
 
 .works-image {
     overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
 
 .works-image img {
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
     transition: transform 0.5s;
 }
 
